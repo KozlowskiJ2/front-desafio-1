@@ -10,6 +10,7 @@ body{
     min-height: 100vh;
     background-color: #E5E5E5;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     row-gap: 2rem;
     column-gap:2rem;
 }
@@ -37,6 +38,9 @@ body{
     color:#545454;
     font-size:0.875rem;
 }
+.header a:hover{
+    color:#FE0078;  
+}
 .container{
     grid-area: post;
     justify-self: center;
@@ -45,6 +49,32 @@ body{
     flex-direction: column;
     gap: 2rem;
 }
+.post{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display:flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+.container h1{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.container h2{
+    font-size: 0.75rem;;
+    color:#929292;
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+}
+.container p{
+    font-size: 0.875rem;
+    color:#545454;
+    padding-left: 1rem;
+}
+.container  a button{
+ margin-left: auto;
+}
 .menu{
     grid-area: menus;
     justify-self: center;
@@ -52,6 +82,36 @@ body{
     display: flex;
     flex-direction: column;
     height: min-content;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 1rem;;
+}
+.menu input{
+    width:21.25rem ;
+    padding: 1rem;
+    margin:0;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border:1px solid #EEEEEE;
+    align-self: center;
+}
+.menu h1{
+    font-size: 1.125rem;
+    font-weight: bold;
+    border-left: 0.125rem solid #FE0078;
+    padding: 0.5rem;
+}
+.link{
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 2px dashed #EEEEEE;
+    color:#545454;
+    font-size: 0.875rem;
+}
+.link:hover{
+    color:#FE0078;
+    border-bottom: 2px dashed #FE0078;
 }
 .footer{
     grid-area: footer;
