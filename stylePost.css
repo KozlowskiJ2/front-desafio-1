@@ -69,7 +69,7 @@ a:active{
     flex-direction: column;
     padding: 1rem 0;
 }
-.container h1{
+.container .post h1{
     font-size: 1.5rem;
     padding-left: 1rem;
     font-weight: bold;
@@ -80,9 +80,14 @@ a:active{
     padding: 0.5rem 1rem;
     font-weight: 400;
 }
+ ul{
+    font-size: 0.875rem;
+    color:#000000;
+    padding-left: 2rem;
+}
 .container p{
     font-size: 0.875rem;
-    color:#545454;
+    color:#000000;
     padding: 1.5rem 1rem 1rem 1rem;
 }
 .container  button{
@@ -95,6 +100,10 @@ a:active{
  padding: 0.7rem 1rem;
  align-self: flex-end;
  margin: 1rem;
+}
+
+.container form label{
+
 }
 
 .container button:hover{
