@@ -8,67 +8,60 @@
     <title>Página Principal - Desafio Front</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="stylePost.css">
+    <link rel="stylesheet" href="styleContato.css">
 </head>
 
 <body>
     <div class="header">
         <a><img src="./assets/logo.svg" alt="Logo"></a>
         <div class="paginas">
-            <a href=#>Início</a>
+            <a href="./principal.html">Início</a>
             <a href=#>Sobre</a>
-            <a href=#>Contato</a>
+            <a href="./contato.html">Contato</a>
         </div>
     </div>
     <div class="container">
-        <div class=post>
-            <h1>Lorem ipsum dolor sit amet</h1>
-            <h2>26/07/2020 às 00:04 - By: autor</h2>
-            <img src="./assets/computador.png" alt="Computador">
+        <div class="texto">
+            <h1>Contato</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum vestibulum.
                 Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh. Morbi diam lacus,
                 suscipit nec maximus et, tincidunt at quam.
-                <br><br>
-                Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare enim
-                ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo, vitae euismod
-                nisi elementum. Vivamus tincidunt id massa eget blandit.
             </p>
-            <br>
-            <ul>
-                <li>Lorem ipsum dolor sit amet consectetur.
-                    <ul>
-                        <li>Lorem, ipsum dolor</li>
-                        <li>Numquam, similique debitis!</li>
-                        <li>Itaque, nam labore?</li>
-                    </ul>
-                </li>
-                <li>Quibusdam sapiente velit nulla delectus enim?</li>
-                <li>Officia dolore autem sint aliquid commodi!</li>
-                <li>Eius asperiores deserunt aliquid animi quo.</li>
-                <li>Saepe explicabo blanditiis aspernatur suscipit voluptates.</li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam. 
-            <br><br>
-            <i>Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo, vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.<i>
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam. 
-            <br><br>
-            Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo, vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.
-            </p>
+            <h2>INFORMAÇÕES PARA CONTATO</h2>
+            <div class="imagens">
+                <img  src="./assets/localizacao.svg" alt="localização">
+                <h3>Endereço</h3>
+            </div>
+            <p>Av. Tancredo Neves, 2227, Ed. Salvador Prime Caminho das Árvores, Salvador • Bahia</p>
+            <div class="imagens">
+                <img  src="./assets/telefone.svg" alt="telefone">
+                <h3>Telefone</h3>
+            </div>
+            <p>(71) 9 9999-9999 | (11) 1 1111-1111</p>
+            <div class="imagens">
+                <img  src="./assets/headset.svg" alt="headset">
+                <h3>Suporte</h3>
+            </div>
+            <p>suporte@cubos.academy</p>
         </div>
-        <div class="comentarios">
-            <h1>Comentários</h1>
+        <div class="contato">
+            <h2>ENTRE EM CONTATO</h2>   
             <form>
                 <div class="label1">
-                    <label for="text">Nome</label>
-                    <label for="email">Email</label>
+                    <label class=nome for="text">Nome</label>
+                    <label class=email for="email">E-mail</label>
                 </div>
-                
-                <input type="text" id="nome">
-                <input type="email" id="email"><br>
+                <div class="inputs">
+                    <input type="text" id="nome">
+                    <input type="email" id="email"><br>
+                </div>
+                <label for="assunto">Assunto</label><br>
+                <input type="text" id="assunto"><br>
                 <label for="coment">Comentário</label>
-                <textarea name="coment" id="coment" cols="100" rows="10"></textarea>
-                <button>Comentar</button>
+                <textarea name="coment" id="coment" ></textarea>
+                <div class="botao">
+                    <button>Enviar</button>
+                </div>
             </form>
         </div>
     </div>
