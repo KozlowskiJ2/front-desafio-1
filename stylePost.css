@@ -41,6 +41,7 @@ a:active{
     margin-bottom: 2rem;
 }
 .paginas{
+    margin-left: 25rem;
     display: flex;
     margin-right: -3rem;
     width: 30%;
@@ -168,7 +169,7 @@ a:active{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     padding: 1rem;
-    margin-right: 0;
+    margin-right: 5rem;
 }
 .pesquisar{
     width:21.25rem ;
